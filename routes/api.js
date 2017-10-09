@@ -2,9 +2,9 @@ var express = require('express');   // brings express to use his router
 var router = express.Router();      //
 
 var mongojs = require('mongojs');   // brings in mongo module
-//var db = mongojs('mongodb://diegotakeo:pzv5ce8h@ds139124.mlab.com:39124/my_database', ['user, posts, title, follows, comments, follows, challenges, categories, badges, counters']); 
-var db = mongojs('mongodb://defy:compartilhabilidade@defy-shard-00-00-xea6d.mongodb.net:27017,defy-shard-00-01-xea6d.mongodb.net:27017,defy-shard-00-02-xea6d.mongodb.net:27017/test?ssl=true&replicaSet=defy-shard-0&authSource=admin'
-, ['user, posts, title, follows, comments, follows, challenges, categories, badges, counters']);  
+var db = mongojs('mongodb://defy:!compartilhabilidade64@ds113835.mlab.com:13835/defy', ['users, posts, title, follows, comments, follows, challenges, categories, badges, counters']); 
+//var db = mongojs('mongodb://defy:compartilhabilidade@defy-shard-00-00-xea6d.mongodb.net:27017,defy-shard-00-01-xea6d.mongodb.net:27017,defy-shard-00-02-xea6d.mongodb.net:27017/test?ssl=true&replicaSet=defy-shard-0&authSource=admin'
+//, ['user, posts, title, follows, comments, follows, challenges, categories, badges, counters']);  
 // stablish connection: get mLab URI (connect using driver)
     // [] parameter to select collections 
     // user {titles:{}, selected:'',  }
