@@ -4,11 +4,13 @@
   "description": "\"\"\u001b[DA gamified social media \u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DDEFY: a gamified social media",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/diegotakeo/defy.git"
+    "url": "git+ssh://git@github.com/diegotakeo/defy_web_API.git"
   },
   "keywords": [
     "mobile",

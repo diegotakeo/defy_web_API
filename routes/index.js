@@ -5,8 +5,8 @@ var router = express.Router();      //
 router.get('/', function(req, res, next){ // takes parameters (request, response, next)
     
     // (L8R) maybe index is not necessary for a API (we just need /api/user, /api/posts, etc)
-    res.send('index.html'); 
-
+     res.send('index.html'); 
+    // res.render('index', {title: 'Express: Now on Google App Engine!'});
 });
 
 // EXPORT THIS (so we can access this from other files)
